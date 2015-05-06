@@ -1,2 +1,2 @@
 # VMup
-Python FLASK-based web application for bring UP or DOWN Azure VM.
+Python FLASK-based web application for bringing UP or DOWN Azure VM.
