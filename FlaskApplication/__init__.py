@@ -53,10 +53,10 @@ def shutit():
     else:
         return redirect("/", code=302)
 
-@app.route('/kontakt')
+@app.route('/contact')
 def kontakt():
     return render_template("contact.html",
-            title = 'Kontakt',
+            title = 'Contact',
             year = date.today().year)
 
 @app.route('/checkstate')
